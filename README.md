@@ -5,7 +5,7 @@ A Shopify theme for _{{client-name}}_
 
 By {{company-name}} (Los Angeles)
 
-* Staging store: [{{store-name}}.myshopify.com]({{store-name}}.myshopify.com)
+* Staging store: [https://tcsjerky.myshopify.com](https://tcsjerky.myshopify.com)
 
 * Live store: [{{store-name}}.myshopify.com]({{store-name}}.myshopify.com)
 
@@ -14,7 +14,7 @@ Preview password: `....`
 
 ## Setup
 
-`{{project-code}}` is a good enough prefix/key for any naming conventions
+`{{tcsjerky}}` is a good enough prefix/key for any naming conventions
 
 Standard Shopify theme style / (no alternate build systems - slate etc)
 
@@ -24,7 +24,7 @@ An 'app' is setup for themekit authentication already (called _ThemeKit_)
 
 `theme get --list -p={{password}} -s={{store}}.myshopify.com` to get the list of themes
 
-Clone this repo in a folder called _sites/shopify/`{{project-code}}`_ or whatever you do
+Clone this repo in a folder called _sites/shopify/`{{tcsjerky}}`_ or whatever you do
 
 Move into that folder before pulling down the theme files from the live instance
 
