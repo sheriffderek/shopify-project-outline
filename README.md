@@ -33,9 +33,9 @@ Move into that folder before pulling down the theme files from the live instance
 This will show any updates that may have happend on the live site / and you can commit them.
 
 
-## Steps to no blow it
+## Steps to not *blow it*
 
-* 
+* ...
 
 * 
 
@@ -49,6 +49,7 @@ Keep in mind that this .scss system Shopify has - might not autoprefix?
 Probably shouldn't use grid yet...
 
 
+
 ## "Apps" (plugins/addons)
 
 *
@@ -56,15 +57,133 @@ Probably shouldn't use grid yet...
 *
 
 
-## Something
 
-*
+## Custom *components*
 
-*
+The little reusable things
+
+* [x] "**Component name**" */snippets/component.name.liquid* `.class`
+  
+  - What it needs to do
+  - How to build it
 
 
-## Something
 
-*
+* [x] "**Component name**" */snippets/component.name.liquid* `.class`
+  
+  - What it needs to do
+  - How to build it
 
-*
+
+
+## Custom *modules*
+
+The bigger page 'section' - (often made up of the components ^)
+
+
+* [x] "**Module name**" */sections/module-name.liquid* `.class`
+  
+  - What it needs to do
+  - How to build it
+
+
+
+* [x] "**Module name**" */sections/module-name.liquid* `.class`
+  
+  - What it needs to do
+  - How to build it
+
+
+
+## Pages
+
+Not every Shopify site has all of these pages... 
+
+Here's a list of pages (in order of imporatance). Mark the ones we're using with an **x**.
+
+
+* [x] "**Home**" `/` *index.liquid* `.class`
+  
+  - Shows products and other informational modules
+  - You could just add to cart here - and skip product index or detail pages
+    - Which can lead you to ‘cart’
+    - You might even be able to skip straight to checkout
+
+
+
+* [x] "**Checkout**" `/unique-id/checkouts/unique-id` *...*
+  
+  - Fully handled by Shopify. We don't have access to this except on 'plus' accounts
+  - One less thing to deal with. : )
+
+
+
+* [x] "**Cart**" `/cart` *cart.liquid* `.uknown`
+
+  - Shows products and other informational modules
+  - You could just add to cart here - and skip product index or detail pages
+    - Which can lead you to ‘cart’
+
+
+
+* [x] "**Product Detail**" `/products/handle` *product.liquid* > *product.?.liquid* `.template-product`
+
+  - Description of use
+  - How it's connected to the whole
+    - any more specifics to know
+
+
+
+* [ ] "**Page**" `/pages/handle` *page.liquid* > *page.handle.liquid* `.unknown`
+
+  - Description of use
+  - How it's connected to the whole
+    - any more specifics to know
+
+
+
+* [ ] "**Page**" `/pages/handle` *page.liquid* > *page.handle.liquid* `.template-page.handle`
+
+  - Description of use
+  - How it's connected to the whole
+    - any more specifics to know
+
+
+
+* [ ] "**Page**" `/pages/handle` *page.liquid* > *page.handle.liquid* `.unknown`
+
+  - Description of use
+  - How it's connected to the whole
+    - any more specifics to know
+
+
+
+* [ ] "**Page**" `/pages/handle` *page.liquid* > *page.handle.liquid* `.unknown`
+
+  - Description of use
+  - How it's connected to the whole
+    - any more specifics to know
+
+
+
+* [ ] "**Page**" `/pages/handle` *page.liquid* > *page.handle.liquid* `.unknown`
+
+  - Description of use
+  - How it's connected to the whole
+    - any more specifics to know
+
+
+
+* [ ] "**Page**" `/pages/handle` *page.liquid* > *page.handle.liquid* `.unknown`
+
+  - Description of use
+  - How it's connected to the whole
+    - any more specifics to know
+
+
+
+* [ ] "**Page**" `/pages/handle` *page.liquid* > *page.handle.liquid* `.unknown`
+
+  - Description of use
+  - How it's connected to the whole
+    - any more specifics to know
